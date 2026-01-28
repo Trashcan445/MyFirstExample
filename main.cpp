@@ -15,11 +15,12 @@ int main()
     
     if(y==0){
         std::cout << "Dividing by zero is not a number." << std::endl;
+        std::cout << "Remainder: " << x << std::endl;
     }else{
         std::cout << "Division: " << x / y << std::endl;
+        std::cout << "Remainder: " << x % y << std::endl;
     }
     
-    std::cout << "Remainder: " << x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
 
