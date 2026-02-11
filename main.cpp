@@ -6,7 +6,7 @@ using std::cin;
 using std::cout;
 
 int main()
-{
+
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     cout << "Hi, please enter two whole numbers: ";
 
